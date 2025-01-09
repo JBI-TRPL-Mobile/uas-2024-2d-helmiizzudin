@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'login_page.dart';
+import 'sign_up_page.dart';
 class AuthPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -35,6 +36,9 @@ class AuthPage extends StatelessWidget {
                   ),
                   ElevatedButton(
                     onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SignUpPage()),);
                     },
                     child: Text('Sign Up'),
                     style: ElevatedButton.styleFrom(

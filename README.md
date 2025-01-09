@@ -8,11 +8,12 @@ A new Flutter project.
 # NIM: 362358302109
 # Kelas: 2D
 
-# Halaman auth
+# Auth Page
 ![screenshot](assets/images/authPage.jpg)
-# Halaman login
+# Login Page
 ![screenshot](assets/images/loginPage.jpg)
-
+# Sign Up Page
+![screenshot](assets/images/signUp.jpg)
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:

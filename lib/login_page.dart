@@ -68,14 +68,14 @@ class LoginPage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   IconButton(
-                    icon: Image.asset('assets/images/google.jpeg',width: 20,height: 20,), // Ganti dengan gambar ikon Google
+                    icon: Image.asset('assets/images/google.jpeg',width: 20,height: 20,), 
                     onPressed: () {
 
                     },
                   ),
                   SizedBox(width: 20),
                   IconButton(
-                    icon: Image.asset('assets/images/fb.jpeg',width: 20,height: 20,), // Ganti dengan gambar ikon Facebook
+                    icon: Image.asset('assets/images/fb.jpeg',width: 20,height: 20,), 
                     onPressed: () {
 
                     },
