@@ -8,7 +8,8 @@ A new Flutter project.
 # NIM: 362358302109
 # Kelas: 2D
 
-#
+# Halaman auth
+![screenshot](assets/images/authPage.jpg)
 # Halaman login
 ![screenshot](assets/images/loginPage.jpg)
 
