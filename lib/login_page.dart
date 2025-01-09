@@ -1,4 +1,3 @@
-// lib/login_page.dart
 
 import 'package:flutter/material.dart';
 
@@ -44,12 +43,10 @@ class LoginPage extends StatelessWidget {
               SizedBox(height: 16),
               ElevatedButton(
                 onPressed: () {
-                  // Logika untuk mengautentikasi pengguna
                   String email = emailController.text;
                   String password = passwordController.text;
                   print('Email: $email, Password: $password');
 
-                  // Navigasi ke halaman utama setelah login
                   Navigator.pushReplacementNamed(context, '/home');
                 },
                 child: Text('Sign In'),
@@ -60,7 +57,7 @@ class LoginPage extends StatelessWidget {
               SizedBox(height: 16),
               TextButton(
                 onPressed: () {
-                  // Logika untuk lupa password
+
                 },
                 child: Text('Forget Password?'),
               ),
@@ -73,14 +70,14 @@ class LoginPage extends StatelessWidget {
                   IconButton(
                     icon: Image.asset('assets/images/google.jpeg',width: 20,height: 20,), // Ganti dengan gambar ikon Google
                     onPressed: () {
-                      // Logika untuk login dengan Google
+
                     },
                   ),
                   SizedBox(width: 20),
                   IconButton(
                     icon: Image.asset('assets/images/fb.jpeg',width: 20,height: 20,), // Ganti dengan gambar ikon Facebook
                     onPressed: () {
-                      // Logika untuk login dengan Facebook
+
                     },
                   ),
                 ],
