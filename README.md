@@ -4,6 +4,13 @@
 A new Flutter project.
 
 ## Getting Started
+# Nama: Helmi izzuddin
+# NIM: 362358302109
+# Kelas: 2D
+
+#
+# Halaman login
+![screenshot](assets/images/loginPage.jpg)
 
 This project is a starting point for a Flutter application.
 
